@@ -1,14 +1,10 @@
 const KEYS = {
     'googleOauth': {
-        'clientID': "948103666603-qj71gukhm51805vof2861q3huuu1uetg.apps.googleusercontent.com",
-        'clientSecret': "M61wWOyIJvJzq-3LRjQt277b",
+        'clientID': "198993523351-o8qsau0n1ref76bpqtb2lv78utstn537.apps.googleusercontent.com",
+        'clientSecret': "WxBKIZdENCT1Zg123PB2EkNa",
         'callback': '/auth/google/redirect'
     },
     "session_key": "secret123"
 }
 
 module.exports = KEYS
-
-
-
-
