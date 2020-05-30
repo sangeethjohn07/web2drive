@@ -111,65 +111,6 @@ router.post('/upload', function(req, res) {
 
             }
         });
-        //move file to google drive
-        var dataq, data1;
-        var body;
-        // http.get(url1, function(response) {
-        //     //response.getBody();
-        //     var res = response;
-        //     var bodyChunks = [];
-        //     res.on('data', function(chunk) {
-        //         // You can process streamed parts here...
-        //         bodyChunks.push(chunk);
-        //     }).on('end', function() {
-        //         body = Buffer.concat(bodyChunks).toString();
-        //         // console.log('BODY: ' + body);
-        //     })
-
-        // });
-
-        // requestify.get(url1)
-        //     .then(function(response) {
-        //         // Get the response body (JSON parsed or jQuery object for XMLs)
-        //         // response.getBody();
-        //         body = response.body;
-
-        //     });
-
-
-        //console.log(fs.createReadStream(dest));
-        // fetch(url1)
-        //     .then(res => res.buffer())
-        //     .then(buffer => {
-        //         dataq = buffer;
-        //         //console.log(dataq);
-        //         //  let { name: filename, mimetype, data } = dest;
-        //         data = dataq;
-        //         filename = dest;
-        //         mimetype = mime.lookup(dest);
-        //         // filename='abc';
-
-        //         const driveResponse = drive.files.create({
-        //             requestBody: {
-        //                 name: filename,
-        //                 mimeType: mimetype
-        //             },
-        //             media: {
-        //                 mimeType: mimetype,
-        //                 body: fs.createReadStream(dest)
-        //             }
-        //         });
-
-        //         driveResponse.then(data => {
-
-        //             if (data.status == 200) res.redirect('/dashboard?file=upload') // success
-        //             else res.redirect('/dashboard?file=notupload') // unsuccess
-
-        //         }).catch(err => { throw new Error(err) })
-
-        //     });
-
-
     }
 })
 

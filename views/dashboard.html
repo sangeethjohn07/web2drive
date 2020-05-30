@@ -28,8 +28,7 @@
                         <li class="collection-item avatar">
                             <img src="{{avatar}}" alt="avatar" class="circle">
                             <span class="title">{{name}}</span>
-                            <p>googleid - (user id) {{googleid}}</p>
-                            <p>email - {{email}}</p>
+                            <p>{{email}}</p>
                         </li>
                     </ul>
                 </div>
@@ -49,15 +48,7 @@
 
 
                     <form action="/upload" method="post" enctype="multipart/form-data">
-                        <div class="file-field input-field">
-                            <div class="btn">
-                                <span>File</span>
-                                <input type="file" name="file_upload">
-                            </div>
-                            <div class="file-path-wrapper">
-                                <input class="file-path validate" type="text">
-                            </div>
-                        </div>
+
                         <input type="text" required name="url1">
                         <button style="display: block; margin: 0 auto" class="btn waves-effect waves-light" type="submit">UPLOAD</button>
                     </form>

@@ -34,9 +34,6 @@ $ npm run prod
     │   ├── dashboard.html   
     │   ├── home.html       
     ├── index.js
-    ├── MS19802886.xml       # submission details
     ├── package.json
     └── README.md
 ```
-### Author
-* [Dhananjaya Karandana](https://twitter.com/dkarandana)
